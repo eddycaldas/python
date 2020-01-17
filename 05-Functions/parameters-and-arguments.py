@@ -12,3 +12,4 @@ def add(a, b):
     print('the sum of', a, 'and', b, 'is', a + b)
 
 add(4, 5)
+add(-5, 9)
