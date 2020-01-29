@@ -12,3 +12,5 @@ print('\n')
 
 print(address[12:])
 print(address[:11])
+
+print(address[:])
