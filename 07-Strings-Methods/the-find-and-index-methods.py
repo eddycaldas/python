@@ -1,30 +1,42 @@
-browser = "Google Chrome"
+# browser = "Google Chrome"
 
-print(browser.find("C"))
-print(browser.find("Ch"))
-print(browser.find("o"))
+# print(browser.find("C"))
+# print(browser.find("Ch"))
+# print(browser.find("o"))
 
-print('\n')
+# print('\n')
 
-print(browser.find("R"))
+# print(browser.find("R"))
 
 #  -1 means that the character or string is not
 #  on the original string itself
 # ---------------------------->
-print()
+# print()
 
-print(browser.find('o', 2))
-print(browser.find('o', 5))
+# print(browser.find('o', 2))
+# print(browser.find('o', 5))
 
 # in this case, a second argument is where the
 # search of the character or string starts.
 
 # ----------------------------->
-print()
+# print()
 
-print(browser.index('C'))
-print(browser.index("Z"))
+# print(browser.index('C'))
+#print(browser.index("Z"))
 
 # index method is the same as the find one, 
 # but instead it'll return a ValueError instead 
 # of the -1 as the find method does.
+
+# -------------------------------->
+
+print()
+
+my_string = "los pollitos dicen pio pio pio"
+
+print(my_string.rfind('l'))
+
+print(my_string.rfind('l',7))
+
+print(my_string.rfind('l', 15, 22))
