@@ -22,3 +22,16 @@ print(coffees)
 
 coffees.reverse()
 print(coffees)
+
+print("-------")
+
+numbers = [1, 4, 5, 7, 9]
+
+# how can you overwrite the values 4 and 5 with 6 and 8?
+
+numbers.remove(1)
+numbers.remove(7)
+numbers.remove(9)
+numbers.append(6)
+numbers.append(8)
+print(numbers)
